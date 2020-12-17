@@ -97,7 +97,11 @@ function initialize()
 
 	arToolkitContext = new THREEx.ArToolkitContext({
 		cameraParametersUrl: 'camera_para.dat',
-		detectionMode: 'mono'
+		detectionMode: 'mono',
+		canvasWidth: 80 * 3,
+		canvasHeight: 60 * 3,
+		maxDetectionRate: 60,
+		
 	});
 	
 
